@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Awesomest Weather Checker</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="javasheet" href="src/hello.js" />
+  </head>
+
+  <body>
+    <h1>
+      Awesomest Weather Checker
+    </h1>
+    <form id="city-form">
+      <input type="text" id="city-input" placeholder="Enter city name" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <br />
+    <h2 id="myCity">London</h2>
+    <p class="today" id="thisday">
+      Today
+    </p>
+    <div class="container">
+      <div class="row row-cols-2">
+        <div class="col">
+    <p>
+      🌤
+      <br />
+      <span id="temp-today">12</span>°C
+    </p> 
+  </div><div class="col-3"><p class="additional_info">humidity 20% wind 19km/h</p></div>
+      </div>
+    </div>
+<p>
+    <div class="container">
+      <div class="row row-cols-5">
+        <div class="col">Monday <br /> 🌥 11°C</div>
+        <div class="col">Tuesday <br /> 🌦 8°C</div>
+        <div class="col">Wednesday <br /> 🌤 12°C</div>
+        <div class="col">Thursday <br /> ☀ 16°C</div>
+        <div class="col">Friday <br /> 🌤 15°C</div>
+      </div>
+    </div>
+  </p>
+    <script src="src/hello.js"></script>
+  </body>
+</html>
